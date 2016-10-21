@@ -63,8 +63,8 @@ $('.cb-scrs-wrp').filter(function(){
 
             })
 
-var accountSid = 'AC0462f1654cb9067969d6e69080aebcb4';
-var authToken = 'd454488523177e7403bc88db003202cd';
+var accountSid = 'URACCOUNDTSID';
+var authToken = 'URAUTHTOKEN';
 var twilio = require('twilio');
 var client = new twilio.RestClient(accountSid, authToken);
 client.messages.create({
